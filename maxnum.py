@@ -1,10 +1,12 @@
-def maxnum(n):
-n = int(input("Enter the size of an array"))
-list = [int(input()) for x in range(n)]
-max = list[0]
-for i in range(0,len(list)):
-if list[i] > max:
-max = list[i]
+def maxnum(arr,n):
+  max = arr[0]
+  for x in range(0,len(n)):
+    if arr[x] > max:
+      max = arr[x]
+  return max
 
-print("max num in the given list is ", +str(max))
-print(maxnum(5)
+arr = [24,22,1,12,65,2,1,4]
+n = len(arr)
+print(maxnum(arr,n)
+
+    
